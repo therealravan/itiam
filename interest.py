@@ -1,4 +1,15 @@
 print("HERE'S YOUR INTEREST")
+P = 5000
+t = 2
+r = 8
+SI = (P*t*r)/100
+print('Simple interest is: %f' % (SI))
+
+P = 5000
+t = 2
+r = 8
+CI = P * ( (1+r/100)**t - 1)
+print('Compound interest is: %f' %(CI))
 
 while True:
     print("\nChoose 1:")
